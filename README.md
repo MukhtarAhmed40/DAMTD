@@ -1,4 +1,4 @@
-# DAMTD Artifact - Representative subsets for CCS 2026
+# DAMTD Artifact - Representative subsets
 
 This artifact contains a runnable implementation of DAMTD (Domain-Adaptive Malicious Traffic Detection).
 It includes representative anonymized subsets for the three datasets used in the paper: LSNM2024, CIRA-CIC-DoHBrw2020, and CICIoT2023.
@@ -38,6 +38,3 @@ The subsets are synthetic but preserve key statistical properties to enable revi
   ```
   bash run_all.sh
   ```
-
-## Open Science
-See `OpenScience_Appendix.tex` for the exact LaTeX appendix to include in the paper. After acceptance we will replace the anonymized links with permanent repositories.
