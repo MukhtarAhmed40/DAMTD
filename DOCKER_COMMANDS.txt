@@ -1,0 +1,7 @@
+# Build docker image (CPU)
+docker build -t damtd_artifact:latest /path/to/DAMTD-Artifact
+
+# Run full pipeline inside container
+docker run --rm -it -v /path/to/DAMTD-Artifact:/workspace damtd_artifact:latest bash -lc "cd /workspace && bash run_all.sh"
+
+# For GPU: use a CUDA-enabled base image and run with --gpus all (requires NVIDIA Container Toolkit)
