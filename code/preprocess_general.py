@@ -1,4 +1,6 @@
 import numpy as np
+import pandas as pd
+import os
 import os, argparse
 
 def generate_representative_subset(outdir, samples=1000, input_dim=50, seq_len=20, seed=42):
