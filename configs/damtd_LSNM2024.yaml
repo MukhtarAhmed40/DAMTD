@@ -1,0 +1,12 @@
+dataset: LSNM2024
+batch_size: 64
+epochs: 5
+learning_rate: 0.001
+input_dim: 50
+seq_len: 20
+cnn_filters: 32
+lstm_units: 64
+attention_heads: 4
+mmd_lambda: 0.1
+adv_lambda: 0.1
+model_save_path: pretrained_models/damtd_LSNM2024.h5
