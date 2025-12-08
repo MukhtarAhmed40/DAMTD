@@ -1,0 +1,26 @@
+seed: 42
+train:
+  batch_size: 128
+  epochs: 12
+  lr: 0.002
+  device: "gpu"  # or "cpu"
+model:
+  cnn_filters: 32
+  cnn_kernel: 4
+  cnn_pool: 5
+  lstm_units: 128
+  lstm_dropout: 0.05
+  attn_heads: 8
+  dense_units: 64
+loss:
+  lambda_adv: 1.0
+  lambda_mmd: 0.5
+  lambda_reg: 0.1
+  lambda_gp: 10.0
+data:
+  seq_len: 200
+  n_features: 80  # set according to your flow features
+paths:
+  source_data: "./data/source.npz"
+  target_data: "./data/target.npz"
+  out_dir: "./checkpoints"
