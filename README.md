@@ -3,7 +3,6 @@
 This repository provides a runnable implementation of **DAMTD (Domain-Adaptive Malicious Traffic Detection)**, accompanying the paper:
 
 > **DAMTD: A Domain-Adaptive Framework for Scalable Malicious Network Traffic Detection**  
-> *Submitted to ACM CCS 2026*
 
 The artifact enables reviewers to reproduce the core experimental pipeline reported in the paper.
 
@@ -86,14 +85,6 @@ This artifact provides a complete and executable Python-based experimental frame
 
 All scripts perform data loading, preprocessing, training, evaluation, and result storage automatically.  
 A fixed random seed is used to ensure deterministic execution.
-
----
-
-## How to Access
-
-The anonymous artifact repository is available at:
-
-🔗 https://anonymous.4open.science/r/Artifact-ACMCCS/
 
 ---
 
